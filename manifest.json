@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "华南理工自动选课助手",
+  "version": "1.0.0",
+  "description": "在华南理工自主选课页面加载课程监控面板。",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://xsjw2018.jw.scut.edu.cn/jwglxt/xsxk/*",
+        "https://xsjw2018.jw.scut.edu.cn/jwglxt/xsxk/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["courseGrabber.js"],
+      "matches": [
+        "http://xsjw2018.jw.scut.edu.cn/*",
+        "https://xsjw2018.jw.scut.edu.cn/*"
+      ]
+    }
+  ]
+}
