@@ -4,11 +4,9 @@
 
 ## 安装扩展
 
-1. 登录教务系统，进入自主选课页面：
-   `http://xsjw2018.jw.scut.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default`
+1. 登录教务系统，进入自主选课页面
 2. 打开 Chrome 或 Edge 的扩展管理页，开启“开发者模式”。
-3. 点击“加载未打包的扩展程序”，选择本项目目录：
-   `D:\workspace\extension\SCUT-COURSE-GRABBER`
+3. 点击“加载未打包的扩展程序”，选择本项目目录
 4. 返回自主选课页面并刷新。页面右侧出现“选课助手”面板后，扩展加载完成。
 
 扩展更新后，在扩展管理页点击“重新加载”，再刷新自主选课页面。
